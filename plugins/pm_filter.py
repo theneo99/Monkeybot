@@ -1006,7 +1006,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔗 More Help ', callback_data='leech_url_help'),
             InlineKeyboardButton('⚙ Open Settings ', callback_data='openSettings'),
         ],[
-            InlineKeyboardButton('⪦ Learn BOT Making ⪧', url='https://youtube.com)
+            InlineKeyboardButton('⪦ Learn BOT Making ⪧', url='https://youtube.com')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
